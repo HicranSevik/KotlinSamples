@@ -24,6 +24,11 @@ class SampleForVal {
     // val age: String
     // age = 25
 
+    // * initialize value later is possible in function
+    fun reAssignValue(){
+        val name: String
+        name = "Hicran"
+    }
 
     fun getSurname() :String{
         return "SEVIK"
