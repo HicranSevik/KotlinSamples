@@ -1,9 +1,9 @@
-package com.sevik.hicran.kotlinsamples.classes
+package classes
 
 class SimpleClass {
     private var name = "Hicran"
 
-    // * public unnecassary:: Redundant visibility modifier
+    // * public unnecessary:: Redundant visibility modifier
     public fun getAge(): Int {
         return 25
     }
@@ -18,28 +18,4 @@ class OtherClass {
     var simple = SimpleClass()
     private val age = simple.getAge()
 }
-
-// * class with primary constructor
-class User(var userName: String, val age: Int) {}
-// class User constructor(var userName:String, val age:Int) {}
-
-// * definition of default value in primary constructor
-class Animal(animalNumber: Int = 1) {
-    var animalName = ""
-    var animalNum = animalNumber + 3
-
-    // * init sample
-    // * do smt while the class initializing
-    init {
-        if (animalNumber > 5)
-            println(animalNumber + 3)
-    }
-
-    // secondary constructor definition
-    constructor(animalName: String, animalNumber: Int) : this() {
-        this.animalName = animalName
-        println(this.animalName)
-    }
-}
-
 

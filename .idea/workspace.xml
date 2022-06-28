@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="55c9777e-2765-4da3-9030-c328e623d9bf" name="Changes" comment="">
+    <list default="true" id="55c9777e-2765-4da3-9030-c328e623d9bf" name="Changes" comment="Added primary constructor sample">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/classes/ConsructorSamples.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/classes/SimpleClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/classes/SimpleClass.kt" afterDir="false" />
@@ -36,7 +37,14 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
-  <component name="RunManager" selected="Kotlin.MainKt (1)">
+  <component name="RunManager" selected="Kotlin.ConsructorSamplesKt">
+    <configuration name="ConsructorSamplesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="classes.ConsructorSamplesKt" />
+      <module name="KotlinSamples" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MainKt (1)" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="classes.MainKt" />
       <module name="KotlinSamples" />
@@ -53,6 +61,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.ConsructorSamplesKt" />
         <item itemvalue="Kotlin.MainKt (1)" />
         <item itemvalue="Kotlin.MainKt" />
       </list>
@@ -67,6 +76,14 @@
       <option name="presentableId" value="Default" />
       <updated>1656278141212</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added primary constructor sample">
+      <created>1656443393027</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1656443393027</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -79,5 +96,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added primary constructor sample" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added primary constructor sample" />
   </component>
 </project>
